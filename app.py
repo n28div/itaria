@@ -71,7 +71,7 @@ def yesterday_data():
     else:
         return jsonify(dataset), 200
 
-@app.route('/date/<int:year>/<int:month>/<int:day>')
+@app.route('/<int:year>/<int:month>/<int:day>')
 def custom_data(year, month, day):
     # Check if dataset is available
     date = datetime(day=day, year=year, month=month)
