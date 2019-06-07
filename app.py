@@ -1,4 +1,5 @@
 from flask import Flask, request, send_file, jsonify
+from flask_cors import CORS
 from os import environ, path
 import requests
 from datetime import datetime, timedelta
@@ -9,6 +10,7 @@ API_KEY = environ.get('API_KEY', 'DEBUG')
 BASE_itAIRQ_URL = 'https://itairq.herokuapp.com/api/v1'
 
 app = Flask(__name__)
+CORS(app)
 
 def fetch_dataset(date):
     """
