@@ -1,4 +1,3 @@
 module.exports = {
-  publicPath: '/itaria/',
-  outputDir: 'docs'
+  publicPath: '/itaria/'
 }
