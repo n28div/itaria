@@ -6,8 +6,9 @@
 [<img src="https://camo.githubusercontent.com/a42604d171b0b0ea871b7826dbc927d4cfdfaefb/68747470733a2f2f64336a732e6f72672f6c6f676f2e7376673f73616e6974697a653d74727565" width="32">](https://d3js.org//)
 
 
-
 Webapp per la visualizzazione della qualità dell'aria in italia basata sui dati forniti da [itAIRQ](https://github.com/n28div/itAIRQ)
+
+(https://n28div.github.io/itaria/)
 
 
 ## Inquinanti
