@@ -8,7 +8,7 @@
 
 Webapp per la visualizzazione della qualità dell'aria in italia basata sui dati forniti da [itAIRQ](https://github.com/n28div/itAIRQ)
 
-(https://n28div.github.io/itaria/)
+https://n28div.github.io/itaria/
 
 
 ## Inquinanti
